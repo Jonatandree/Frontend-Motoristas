@@ -4,9 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Entrar-Registrar</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    
 </head>
-<body>
-    Frontend-Motoristas
+<body id="backgroundcolor1">
+    <section id="section1">
+        <div>
+            <img style=" position: absolute;width: 300px;/* height: 161px; */left: 60px;top: 90px;" src="assets/img/Logo-bg.png">
+        </div>
+
+        <div class="card" style="border-radius: 25px;
+        background-color: #FF6543;">
+            <div class="card-body" style="margin-top: 400px;">
+
+                <div class="text-hyperdelivery" >
+                    Alero
+                </div>
+                <div class="text-motoristas" >
+                    Motoristas
+                    
+            
+            </div>
+          </div>
+
+        
+        <nav>
+            <div>
+                <div id="option-entrar" onclick="selectOption(3)" class="text-entrar-registrar">Entrar</div>
+                <div id="option-registrar" onclick="selectOption(2)" class="text-entrar-registrar">Registrar</div>
+            </div>
+        </nav>
+    </section>
+    <section id="section2">
+        <div>
+            <img style="position: absolute; left: 55%; top: 20%" src="assets/img/Vector.png">
+        </div>
+        <div>
+            <div class="text-nombre" style="position: absolute; width: 124px; height: 42px; left: 30px; top: 380px;">Nombre: </div>
+            <div class="text-correo" style="position: absolute; width: 124px; height: 42px; left: 30px; top: 480px;">Correo: </div>
+            <div class="text-telefono" style="position: absolute; width: 124px; height: 42px; left: 30px; top: 580px;">Telefono: </div>
+            <div class="text-contraseña" style="position: absolute; width: 124px; height: 42px; left: 30px; top: 680px;">Contraseña: </div>
+        </div>
+        <div style="">
+            <img id="fondo-hyperdelivery" src="assets/img/Fondo Hyper.jpg">
+            
+        <div>
+            <div id="option-menu" onclick="selectOption(1)" class="text-entrar-registrar">Volver</div>
+            <div id="option-ingresar" onclick="selectOption(5)" class="text-entrar-registrar">Ingresar</div>
+        </div>
+    </section>
+    <section id="section3">
+        <div>
+            <img style=" position: absolute;
+            width: 300px;
+            /* height: 161px; */
+            left: 60px;
+            top: 250px" src="assets/img/Logo-bg.png">
+        </div>
+        <div>
+            <div class="text-correo" style="position: absolute; width: 124px; height: 42px; left: 30px; top: 500px;">Correo: </div>
+            <div class="text-contraseña" style="position: absolute; width: 124px; height: 42px; left: 30px; top: 600px;">Contraseña: </div>
+        </div>
+        <div>
+            <img id="fondo-hyperdelivery" src="assets/img/Fondo Hyper.jpg">
+            
+        </div>
+            <div>
+                <div id="option-menu" onclick="selectOption(1)" class="text-entrar-registrar">Volver</div>
+                <div id="option-ingresar" onclick="selectOption(4)" class="text-entrar-registrar">Registrar</div>
+            </div>
+    </section>
+    <section id="section4">
+        <div>
+            <div id="fondo-hyperdelivery2">
+                <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
+                <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
+            </div> 
+        </div>
+        <div>
+            <div class="text-bienvenido" style="position: absolute; width: 411px; height: 60px; left: -0px; top: 100px;">Bienvenido(a) de Nuevo</div>
+            <div class="text-ordenesdisponibles" style="position: absolute; width: 411px; height: 60px; left: -0px; top: 150px;">Ordenes Disponibles</div>
+        </div>
+        <div>
+            <div id="option-ordenes" onclick="selectOption(6)" class="text-ordenes"></div>
+            <div id="option-ordenes2" onclick="selectOption(6)" class="text-ordenes"></div>
+            <div id="option-ordenes3" onclick="selectOption(6)" class="text-ordenes"></div>
+        </div>
+    </section>
+    <section id="section5">
+        <div>
+            <div id="fondo-hyperdelivery2"></div>
+            <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
+                <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
+            </div>
+        <div>
+            <div id="fondo-registro"></div>
+        </div>
+    </section>
+    <section id="section6">
+        <div>
+            <div id="fondo-hyperdelivery2"></div>
+            <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
+                <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
+            </div>
+        <div>
+            <div id="fondo-orden"></div>
+        </div>
+    </section>
+    <section id="section0">
+        <div>
+            <div id="fondo-menu"></div>
+        </div>
+    </section>
+    <script src="assets/js/controller.js"></script>
 </body>
 </html>
