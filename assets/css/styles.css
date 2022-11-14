@@ -64,8 +64,8 @@ nav{
     top: 582px;
 }
 
-#section0, #section2, #section3, #section4, #section5, #section6{
-    display: none;
+#section0, #section2, #section3, #section4, #section5, #section6, #section7{
+    display: none;  
 }
 
 .text-hyperdeliverytop{
@@ -114,10 +114,10 @@ nav{
     box-shadow: black 0px 4px 4px;
     border-radius: 25px;
     position: absolute;
-    width: 144px;
-    height: 63px;
+    width: auto;
+    height: auto;
     left: 135px;
-    top: 800px;
+    top: 750px;
 }
 
 .text-nombre{
@@ -234,6 +234,17 @@ nav{
     position: absolute;
     width: 350px;
     height: 750px;
+    left: 31px;
+    top: 110px;
+}
+
+#fondo-estados-orden{
+    background-color: #FF6543;
+    
+    border-radius: 25px;
+    
+    
+    height: 200px;
     left: 31px;
     top: 110px;
 }
