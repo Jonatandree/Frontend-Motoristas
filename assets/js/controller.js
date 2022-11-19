@@ -7,6 +7,10 @@ const option_registro = 5;
 const option_ordenes = 6;
 const option_ordene = 7;
 const option_factura = 8;
+const option_listadoOrdenes = 9;
+const option_OrdenesTomadas = 10;
+const option_OrdenesEntregadas = 11;
+
 
 
 const body = document.body;
@@ -32,6 +36,9 @@ const selectOption = (option) =>{
             document.getElementById('section6').style.display="none";
             document.getElementById('section7').style.display="none";
             document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
           
             
         break;
@@ -47,6 +54,9 @@ const selectOption = (option) =>{
             document.getElementById('section6').style.display="none";
             document.getElementById('section7').style.display="none";
             document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
         break;
         case option_registrar:
             console.log('Visualizar Registro');
@@ -59,6 +69,9 @@ const selectOption = (option) =>{
             document.getElementById('section6').style.display="none";
             document.getElementById('section7').style.display="none";
             document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
         break;
             
         case option_ingreso:
@@ -72,6 +85,9 @@ const selectOption = (option) =>{
             document.getElementById('section6').style.display="none";
             document.getElementById('section7').style.display="none";
             document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
            
         break;
         case option_registro:
@@ -85,6 +101,10 @@ const selectOption = (option) =>{
             document.getElementById('section6').style.display="none";
             document.getElementById('section7').style.display="none";
             document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
+
           
         break;
         case option_ordenes:
@@ -98,6 +118,9 @@ const selectOption = (option) =>{
             document.getElementById('section6').style.display="block";
             document.getElementById('section7').style.display="none";
             document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
             
         break;
         case option_ordene:
@@ -111,6 +134,9 @@ const selectOption = (option) =>{
             document.getElementById('section6').style.display="none";
             document.getElementById('section7').style.display="block";
             document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
             
             
         break;
@@ -125,9 +151,64 @@ const selectOption = (option) =>{
             document.getElementById('section6').style.display="none";
             document.getElementById('section7').style.display="none";
             document.getElementById('section8').style.display="block";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
             
             
         break;
+
+        case option_listadoOrdenes:
+            console.log('botones para ordennes');
+            body.style.backgroundColor = color3;
+            document.getElementById('section1').style.display="none";
+            document.getElementById('section2').style.display="none";
+            document.getElementById('section3').style.display="none";
+            document.getElementById('section4').style.display="none";
+            document.getElementById('section5').style.display="none";
+            document.getElementById('section6').style.display="none";
+            document.getElementById('section7').style.display="none";
+            document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="block";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="none";
+            
+        break;
+
+        case option_OrdenesTomadas:
+            console.log('botones para ordennes');
+            body.style.backgroundColor = color3;
+            document.getElementById('section1').style.display="none";
+            document.getElementById('section2').style.display="none";
+            document.getElementById('section3').style.display="none";
+            document.getElementById('section4').style.display="none";
+            document.getElementById('section5').style.display="none";
+            document.getElementById('section6').style.display="none";
+            document.getElementById('section7').style.display="none";
+            document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="block";
+            document.getElementById('section11').style.display="none";
+            
+        break;
+
+        case option_OrdenesEntregadas:
+            console.log('botones para ordennes');
+            body.style.backgroundColor = color3;
+            document.getElementById('section1').style.display="none";
+            document.getElementById('section2').style.display="none";
+            document.getElementById('section3').style.display="none";
+            document.getElementById('section4').style.display="none";
+            document.getElementById('section5').style.display="none";
+            document.getElementById('section6').style.display="none";
+            document.getElementById('section7').style.display="none";
+            document.getElementById('section8').style.display="none";
+            document.getElementById('section9').style.display="none";
+            document.getElementById('section10').style.display="none";
+            document.getElementById('section11').style.display="block";
+            
+        break;
+        
         
         default:
         break;
@@ -227,3 +308,22 @@ function GenerarEstadosDeRegistro(){
 }
 
 GenerarEstadosDeRegistro();
+
+
+
+var listaOrdenes = [
+
+    {
+        
+
+
+    }
+
+
+
+
+
+
+
+
+]

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/47ba5553fa.js" crossorigin="anonymous"></script>
     
     
 </head>
@@ -26,11 +27,9 @@
                     Alero
                 </div>
                 <div class="text-motoristas" >
-                    Motoristas
-                    
-            
+                    Motoristas   
+                </div>
             </div>
-          </div>
 
         
         <nav>
@@ -86,10 +85,13 @@
     </section>
 
     <section id="section4"> <!-- Pagina donde vemos ordes disponibles-->
+
+
         <div>
             <div id="fondo-hyperdelivery2">
 
-                <i style=" font-size:35px; color:#fff;position: absolute; left: 80%; top: 15px" onclick="selectOption(1)" class='bx bxs-data bx-flip-horizontal'></i> 
+                <i style=" font-size:35px; color:#fff;position: absolute; left: 75%; top: 15px" onclick="selectOption(9)" class='fa-solid fa-motorcycle'></i> 
+                
                 <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
                 <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
 
@@ -97,15 +99,20 @@
             
             </div> 
         </div>
+
+        <div style="margin-top: 260px;">
+
+            <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+               <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+               <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+            </div>
+        </div>
+            
         <div>
             <div class="text-bienvenido" style="position: absolute; width: 411px; height: 60px; left: -0px; top: 100px;">Bienvenido(a) de Nuevo</div>
             <div class="text-ordenesdisponibles" style="position: absolute; width: 411px; height: 60px; left: -0px; top: 150px;">Ordenes Disponibles</div>
         </div>
-        <div>
-            <div id="option-ordenes" onclick="selectOption(6)" class="text-ordenes"></div>
-            <div id="option-ordenes2" onclick="selectOption(6)" class="text-ordenes"></div>
-            
-        </div>
+        
     </section>
 
     <section id="section5"> <!-- pagina donde vemos el estado de la solicitud del motorista-->
@@ -135,16 +142,104 @@
         </div>
     </section>
 
-    <section id="section6"> <!-- Pagina donde tomamos la orden-->
+    <section  id="section6"> <!-- Pagina donde tomamos la orden-->
+
+        <div style="height:auto;display: flex; justify-content: center;">
+            <div id="fondo-orden1" style="padding: 25px; margin-bottom: 20px;margin-top: 100px;">
+                <div style="margin-top: 10PX;color:#fff;font-size:35px;display: flex; justify-content: center;">N° Orden:  </div>
+                <div style="color:#fff;font-size:25px;display: flex; justify-content: center;">lista</div>
+
+                <div style="color:#fff;font-size:15px;display: flex; justify-content: center;height:auto;">
+                    <div>
+                       
+                        <div style="display:flex; justify-content: center;">
+                            
+                            <div style="color: aliceblue;">f</div>
+                            
+                        </div>
+                        
+                    
+                      
+                       
+
+                    </div>
+                    
+
+
+                </div>
+                <div style="display: flex; flex-direction: row;justify-content: space-evenly;">
+
+                    <div >
+                        <div style="margin-top: 90px;color:rgb(0, 0, 0);font-size:25px; font-weight: bold;" >Lugar de</div>
+                        <div style="color:rgb(0, 0, 0);font-size:25px;font-weight: bold;" >Origen:</div>
+
+                        <div style="margin-top: 100px;color:rgb(0, 0, 0);font-size:25px;font-weight: bold;">Lugar de</div>
+                        
+                        <div style="color:rgb(0, 0, 0);font-size:25px;font-weight: bold;">Destino:</div>
+
+
+                    </div>
+
+
+                    <div>
+                        <div style="display:flex; justify-content: center;">
+                            <div style="margin-top: 20px;color:rgb(0, 0, 0);font-size:25px;"> Negocio</div>
+                            
+
+                        </div>
+
+                        <div style="display:flex; justify-content: center;">
+                            
+                            <div style="border-radius: 20px ;position: static ;background-color: #fff ;height:140px ; width: 140px;">f</div>
+                            
+
+                        </div>
+
+                        <div style="display:flex; justify-content: center;">
+                        
+                            <div style="color:rgb(0, 0, 0);font-size:25px;display: flex; justify-content: center;">Cliente</div>
+
+                        </div>
+
+                        <div style="display:flex; justify-content: center;">
+                       
+                            <div style="border-radius: 20px ;position: static ;background-color: #fff ;height:140px ; width: 140px;">f</div>
+                            
+
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div style="margin-top: 20px" id="option-ingresar1" onclick="selectOption(7)" class="text-entrar-registrar">Tomar orden</div>
+
+
+
+
+
+                
+                
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
         <div>
             <div id="fondo-hyperdelivery2"></div>
             <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
-                <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
-            </div>
-        <div>
-            <div id="fondo-orden">  </div>
-            <div id="option-ingresar" onclick="selectOption(7)" class="text-entrar-registrar">Tomar orden</div>
+            <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
         </div>
+        <div>
+            
+        </div>    
     </section>
 
     <section id="section7"> <!-- Pagina donde vemos el estado de la orden-->
@@ -175,17 +270,210 @@
     </section>
 
 
-    <section id="section8"> <!-- Pagina donde tomamos la orden-->
+    <section id="section8"> <!-- Pagina donde vemos la factura de orden-->
         <div>
             <div id="fondo-hyperdelivery2"></div>
             <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
-                <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
+            <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
+        </div>
+
+
+        <div style="height:auto;display: flex; justify-content: center;">
+            <div id="fondo-orden1" style="padding: 25px; margin-bottom: 20px;margin-top: 100px;">
+                <div style="margin-top: 10PX;color:#fff;font-size:35px;display: flex; justify-content: center;">N° Orden:  </div>
+                <div style="color:#fff;font-size:25px;display: flex; justify-content: center;">lista</div>
+
+                <div style="color:#fff;font-size:15px;display: flex; justify-content: center;height:auto;">
+                    <div>
+                       
+                        <div style="display:flex; justify-content: center;">
+                            
+                            <div style="color: aliceblue;">f</div>
+                            
+                        </div>
+                        
+                    
+                      
+                       
+
+                    </div>
+                    
+
+
+                </div>
+                <div style="display: flex; flex-direction: row;justify-content: space-evenly;">
+
+                    <div >
+                        <div style="margin-top: 90px;color:rgb(0, 0, 0);font-size:25px; font-weight: bold;" >Lugar de</div>
+                        <div style="color:rgb(0, 0, 0);font-size:25px;font-weight: bold;" >Origen:</div>
+
+                        <div style="margin-top: 100px;color:rgb(0, 0, 0);font-size:25px;font-weight: bold;">Lugar de</div>
+                        
+                        <div style="color:rgb(0, 0, 0);font-size:25px;font-weight: bold;">Destino:</div>
+
+
+                    </div>
+
+
+                    <div>
+                        <div style="display:flex; justify-content: center;">
+                            <div style="margin-top: 20px;color:rgb(0, 0, 0);font-size:25px;"> Negocio</div>
+                            
+
+                        </div>
+
+                        <div style="display:flex; justify-content: center;">
+                            
+                            <div style="border-radius: 20px ;position: static ;background-color: #fff ;height:140px ; width: 140px;">f</div>
+                            
+
+                        </div>
+
+                        <div style="display:flex; justify-content: center;">
+                        
+                            <div style="color:rgb(0, 0, 0);font-size:25px;display: flex; justify-content: center;">Cliente</div>
+
+                        </div>
+
+                        <div style="display:flex; justify-content: center;">
+                       
+                            <div style="border-radius: 20px ;position: static ;background-color: #fff ;height:140px ; width: 140px;">f</div>
+                            
+
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div style="margin-top: 20px" id="option-ingresar1" onclick="selectOption(4),RemoverEstilo()" class="text-entrar-registrar">Terminar</div>
+
+
+
+
+
+                
+                
+
+
+
+
+
+
+
+
             </div>
-        <div>
-            <div id="fondo-orden">  </div>
-            <div id="option-ingresar" onclick="selectOption(4),RemoverEstilo()" class="text-entrar-registrar">Terminar</div>
+
         </div>
     </section>
+
+
+    <section id="section9"> <!-- Pagina donde nos movemos de diferentes listados de ordenes, entregadas,tomadas , disponibles, -->
+        <div>
+            <div id="fondo-hyperdelivery2">
+                
+
+                
+                <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
+                <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
+
+              
+            
+            </div> 
+        </div>
+        <div>
+            <div class="text-bienvenido" style="position: absolute; width: 411px; height: 60px; left: -0px; top: 100px;">Bienvenido(a) de Nuevo</div>
+            <div class="text-ordenesdisponibles" style="position: absolute; width: 411px; height: 60px; left: -0px; top: 150px;">Ordenes Disponibles</div>
+        </div>
+        <div>
+            <div id="option-ordenes" onclick="selectOption(10)" class="text-ordenes"> <h1 style=" display: flex;justify-content:center; margin-top: 20px ;color:#fff;; "> Ordenes Tomadas</h1></div>
+            <div id="option-ordenes2" onclick="selectOption(4)" class="text-ordenes"><h1 style=" display: flex;justify-content:center; margin-top: 20px ;color:#fff;; "> Ordenes disponibles </h1> </div>
+            <div id="option-ordenes3" onclick="selectOption(11)" class="text-ordenes"><h1 style=" display: flex;justify-content:center; margin-top: 20px ;color:#fff;; "> Ordedes entregadas </h1> </div>
+            
+        </div>
+    </section>
+
+
+    <section id="section10"> <!-- Pagina donde vemos ordes tomadas-->
+        <div>
+            <div id="fondo-hyperdelivery2">
+
+                <i style=" font-size:35px; color:#fff;position: absolute; left: 75%; top: 15px" onclick="selectOption(9)" class='fa-solid fa-motorcycle'></i>  
+                <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
+                <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
+
+              
+            
+            </div> 
+        </div>
+
+
+        <h1 style="color: #000;margin: 100;margin-top: 100px;margin-left:10px;;font-size: xxx-large; ">Ordenes tomadas</h1>
+
+        <div style="margin-top: 100px;">
+
+            <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+               <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+               <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+            </div>
+        </div>
+        
+                    
+    
+    </section>
+
+    <section style="padding-bottom:100px;" id="section11"> <!-- Pagina donde vemos ordes Entregadas-->
+        <div>
+            <div id="fondo-hyperdelivery2">
+
+                <i style=" font-size:35px; color:#fff;position: absolute; left: 75%; top: 15px" onclick="selectOption(9)" class='fa-solid fa-motorcycle'></i> 
+                <img style=" border-radius: 1000px; position: absolute; width: 60px; height: 60px; left: 6px; top: 6px;" src="assets/img/Logo-bg2.png">
+                <i style="color:#fff;position: absolute; left: 88%; top: 15px" onclick="selectOption(1)" class='bx bx-menu bx-md'></i> 
+            </div> 
+        </div>
+        <div style="display:flex; justify-content: center;">
+            <div>
+                <h1 style="color: #000;margin: 100;margin-top: 100px;margin-left:10px;;font-size: xxx-large;display:flex; justify-content: center; ">Ordenes</h1>
+                <h1 style="color: #000;margin: 100;margin-top: 10px;margin-left:10px;;font-size: xxx-large; ">Entregadas</h1>
+            </div>
+        </div>
+
+        
+       
+        <div style="margin-top: 100px;">
+
+            <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+               <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+               <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+            </div>
+            <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+                <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+                <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+             </div>
+             <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+                <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+                <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+             </div>
+             <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+                <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+                <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+             </div>
+             <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+                <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+                <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+             </div>
+             <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+                <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+                <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+             </div>
+             <div onclick="selectOption(6)" style="background-color: #FF6543;display: flex ; flex-direction: row;box-shadow: rgb(153, 150, 150) 0px 4px 4px;border-radius: 25px;margin-top: 10px;width: 350px;height: 85px;margin-left: auto;margin-right: auto;">
+                <i style=" font-size:35px; color:#fff ; margin-top:20px;margin-left:20px;"class="fa-solid fa-street-view"></i>
+                <h1 style="font:icon; color:#fff;font-size:40px; margin-top:20px;margin-left:25px;">N° 34456</h1>
+             </div>
+        </div>
+    </section>
+
+   
 
    
 
@@ -204,5 +492,6 @@
     
     
     <script src="assets/js/controller.js"></script>
+   
 </body>
 </html>

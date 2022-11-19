@@ -64,7 +64,7 @@ nav{
     top: 582px;
 }
 
-#section0, #section2, #section3, #section4, #section5, #section6, #section7,#section8{
+#section0, #section2, #section3, #section4, #section5, #section6, #section7,#section8,#section9,#section10,#section11{
     display: none;  
 }
 
@@ -118,6 +118,15 @@ nav{
     height: auto;
     left: 135px;
     top: 750px;
+}
+
+#option-ingresar1{
+    background-color: #D74B1F;
+    box-shadow: black 0px 4px 4px;
+    border-radius: 25px;
+    width: auto;
+    height: auto;
+    
 }
 
 .text-nombre{
@@ -205,6 +214,10 @@ nav{
     top: 270px;
 }
 
+
+
+
+
 #option-ordenes2{
     background-color: #FF6543;
     box-shadow: black 0px 4px 4px;
@@ -233,10 +246,23 @@ nav{
     border-radius: 25px;
     position: absolute;
     width: 350px;
-    height: 750px;
+    height: auto;
     left: 31px;
     top: 110px;
 }
+
+#fondo-orden1{
+    background-color: #FF6543;
+    box-shadow: rgb(196, 194, 194) 0px 4px 4px;
+    border-radius: 25px;
+   padding: 30px;
+    width: 350px;
+    height: auto;
+    left: 31px;
+    top: 110px;
+}
+
+
 
 #fondo-estados-orden{
     background-color: #FF6543;
